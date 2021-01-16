@@ -1,5 +1,5 @@
-#App-header {
-    background-color: #282c34;
+#head {
+    background-color: #3579ff;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -21,8 +21,9 @@ h1 {
 #landing-sentence {
     font-weight: 10;
     font-size: calc(4em - 8vmin);
-    color: black;
+    color: white;
     margin: 0;
     padding: 0;
     text-align: center;
 }
+
