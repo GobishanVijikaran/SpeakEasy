@@ -1,10 +1,11 @@
 import React from 'react'; 
-import { Heading } from 'grommet';
+import './Header.css';
 
 function Header() {
     return (
         <div>
-            <Heading>HTN Project</Heading>
+            <h1 id="App-header">Meezer</h1>
+            <p1>A place for people of all ages to connect.</p1>
         </div>
     )
 }
