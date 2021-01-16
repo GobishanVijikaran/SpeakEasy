@@ -1,4 +1,4 @@
-.App-header {
+#App-header {
     background-color: #282c34;
     min-height: 100vh;
     display: flex;
@@ -8,3 +8,21 @@
     font-size: calc(10px + 2vmin);
     color: white;
   }
+
+h1 {
+    font-family: 'Patua One', cursive;
+    font-weight: 50;
+    font-size: calc(4em + 6vmin);
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#landing-sentence {
+    font-weight: 10;
+    font-size: calc(4em - 8vmin);
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
