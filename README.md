@@ -9,6 +9,7 @@
 
 ## Preview
 <br>
+<img src=".github/dev.png">
 <img src=".github/Demo.png">
 <br></br>
 
