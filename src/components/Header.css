@@ -1,6 +1,6 @@
 
 h1 {
-    font-family: 'Patua One', cursive;
+    /* font-family: 'Patua One', cursive; */
     font-weight: 50;
     font-size: calc(4em + 10vmin);
     color: white;
@@ -23,7 +23,7 @@ h1 {
 }
 
 #landing-sentence {
-    font-family: 'Patua One', cursive;
+    /* font-family: 'Patua One', cursive; */
     font-weight: 50;
     font-size: calc(4em + 4vmin);
     color: white;
@@ -34,7 +34,7 @@ h1 {
 }
 
 #left {
-    background-color: #2ca0ff;
+    background-color: #7D4BDB;
     position: absolute;
     left: 0px;
     width: 50%;
@@ -43,7 +43,7 @@ h1 {
 }
 
 #right {
-    background-color: #47b9e6;
+    background-color: #ecf0f1;
     position: absolute;
     right: 0px;
     width: 50%;
@@ -53,7 +53,7 @@ h1 {
 }
 
 #sign {
-    font-family: 'Patua One', cursive;
+    /* font-family: 'Patua One', cursive; */
     font-weight: 50;
     font-size: calc(4em + 4vmin);
     color: black;
