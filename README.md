@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <br>
+  <a href=""><img src=".github/Logo.png" alt="SpeakEasy" width="200"></a>
+  <br>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center">Getting seniors connected to a good conversation, anywhere in the world!</h4>
 
-## Available Scripts
+<img src=".github/Demo.png">
+<br></br>
 
-In the project directory, you can run:
+## Inspiration
 
-### `npm start`
+With the fast-pace of modern life, seniors have been relegated to the backseat for far too long. With the COVID-19 pandemic, seniors have become even more isolated from the rest of the world. Personally, as a generation that grew up on our smartphones, we've had little trouble transitioning to virtual communcation. However, the same can't be said for most of our elderly populations with only **27%** of those 65+ owning a smartphone as of 2017 (Canadian Journal of Communication Vol 42, p.g. 331). Our team set out to connect seniors to new people and new conversations on an accessable web platform.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## What it does
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Our web application, SpeakEasy, lets seniors sign up for a timeslot/date after submitting very basic information (name, email, and interests). It then matches the senior with an available caller and transitions the two into a Zoom meeting where they can see each others interests. From there, the conversation goes where the wind blows!
 
-### `npm test`
+## Tech Stack 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* React.js
+* Node.js
+* CockroachDB
 
-### `npm run build`
+## Challenges we ran into
+- Creating a fast front-facing application
+- Maintaining a clean database
+- Creating robust links between database <--> backend <--> frontend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## What we learned
+- CockroachDB and CockroachCloud
+- Building a REST API
+- Complex SQL Queries
+- Integrating React with Node.js
+- Building User Interfaces
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## What's next for SpeakEasy
+- Adding games to the platform
+- Location based matching algorithm (i.e. people near me)
+- Ability to add friends and group calls based on shared interests
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
