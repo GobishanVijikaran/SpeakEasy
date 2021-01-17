@@ -19,5 +19,8 @@ export default () => (
         <FormField label='Interests'>
             <TextInput />
         </FormField>
+        <FormField label='Languages'>
+            <TextInput />
+        </FormField>
     </Form>
   );
