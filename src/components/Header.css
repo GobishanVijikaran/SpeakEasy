@@ -62,3 +62,9 @@ h1 {
     padding: 70px 0;
     text-align: center;
 }
+
+#imageOne {
+    padding-top: 100px;
+    width: 40%;
+    height: auto;
+}
