@@ -5,7 +5,10 @@
 </h1>
 
 <h4 align="center">Getting seniors connected to a good conversation, anywhere in the world!</h4>
+<br>
 
+## Preview
+<br>
 <img src=".github/Demo.png">
 <br></br>
 
